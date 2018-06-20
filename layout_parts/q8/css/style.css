@@ -2,4 +2,283 @@
 
 /* 回答はここに書いてね */
 
-/* 回答はここに書いてね */
+/* q8-1 */
+.small,
+.middle,
+.large {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.small {
+  padding: 4px 15px;
+  font-size: 16px;
+  height: 26px;
+  border-radius: 3px;
+}
+
+.middle {
+  padding: 5px 20px;
+  font-size: 20px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+.large {
+  padding: 6px 25px;
+  font-size: 24px;
+  height: 38px;
+  border-radius: 7px;
+}
+
+.blue,
+.pink,
+.gray {
+  color: #fff;
+}
+
+.blue {
+  background-color: #00dcd4;
+}
+
+.pink {
+  background-color: #ff4081;
+}
+
+.gray {
+  background-color: #e5e5e5;
+}
+
+.white {
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12);
+  box-shadow: 0 1px 4px rgba(0,0,0,.12);
+}
+
+/* q8-2 */
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.form {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ECF1F2;
+}
+
+.title_wrap {
+  position: relative;
+  margin-bottom: 20px
+}
+
+.title_wrap::before {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.title_text {
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ECF1F2;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bottom_left {
+  float: left;
+  margin-left: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.flex:first-child {
+  margin-top: 0;
+}
+
+.name_padding {
+  padding-top: 4px
+}
+
+.color_red {
+  color: red;
+}
+
+.input {
+  margin-left: 20px;
+  width: 180px;
+}
+
+.input_body {
+  padding: 2px;
+}
+
+.border {
+  border: none;
+  outline: none;
+}
+
+.textarea:focus,
+.border:focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+.radio_wrap {
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+}
+
+.radio_btn {
+  display: none;
+}
+
+.radio_span {
+  position: relative;
+  padding: 3px 3px 3px 20px;
+}
+
+.radio_span::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.radio_btn:checked +.radio_span::after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+  opacity: 1;
+}
+
+.select {
+  position: relative;
+}
+
+.select::after {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
+}
+
+.select_wrap {
+  width: 165px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.age_width {
+  width: 130px;
+  margin-left: 0;
+}
+
+.checkbox_wrap {
+  cursor: pointer;
+}
+
+.checkbox_btn {
+  display: none;
+}
+
+.checkbox_span {
+  position: relative;
+  padding: 3px 3px 3px 20px;
+  display: inline-block;
+}
+
+.checkbox_span::before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: '';
+}
+
+.checkbox_btn:checked + .checkbox_span::after {
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 3px;
+  width: 13px;
+  height: 5px;
+  border-bottom: 2px solid #00BCD4;
+  border-left: 2px solid #00BCD4;
+  transform: rotate(-45deg);
+  opacity: 1;
+}
+
+.btn {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+
+.btn:active {
+  background-color: #FFF;
+  color: #00BCD4;
+}
+
+.bottom_right {
+  float: left;
+  margin-left: 10px;
+}
+
+.textarea {
+  width: 175%;
+  height: 195px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #fff;
+  box-sizing: border-box;
+  resize: none;
+  border-color: none;
+}
+
+    /* 回答はここに書いてね */

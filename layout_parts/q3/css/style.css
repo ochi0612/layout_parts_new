@@ -2,4 +2,34 @@
 
 /* 回答はここに書いてね */
 
+table {
+  width: 100%;
+}
+
+th {
+  background-color: #24a;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #dedede;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #dedede;
+}
+
+td:first-child {
+  background-color: #24a;
+  color: #fff;
+}
+
+tr:nth-child(odd) {
+  background-color: #ecf1f2;
+}
+
+tr:last-child {
+  border-top: 2px dashed #000;
+}
+
 /* 回答はここに書いてね */

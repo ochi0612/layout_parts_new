@@ -2,4 +2,77 @@
 
 /* 回答はここに書いてね */
 
+.text-align {
+  text-align: center;
+  padding: 10px;
+}
+
+.text-align > p {
+  background-color: #e6f2ff;
+  width: 90px;
+  display: inline;
+  padding: 10px;
+}
+
+.margin {
+  text-align: center;
+  background-color: #e6f2ff;
+  padding: 10px 0;
+  width: 90px;
+  margin: 0 auto;
+}
+
+.table {
+  display: table;
+  text-align: center;
+}
+
+.werpper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table-text {
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.flex > p {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.positiont-left {
+  height: 110px;
+  width: 30px;
+  position: relative;
+}
+
+.position-left-tex {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.position-right {
+  position: relative;
+}
+
+.position-right-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 /* 回答はここに書いてね */
