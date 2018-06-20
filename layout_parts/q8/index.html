@@ -31,26 +31,26 @@
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <div class="q8 q8--btn">
             <p class="q8__title werpper">ー small ー</p>
-            <div class="blue small">common</div>
-            <div class="pink small">error</div>
-            <div class="gray small">disabled</div>
-            <div class="white small">shadow</div>
+            <div class="common small">common</div>
+            <div class="error small">error</div>
+            <div class="disabled small">disabled</div>
+            <div class="shadow small">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title werpper">ー middle ー</p>
-            <div class="blue middle">common</div>
-            <div class="pink middle">error</div>
-            <div class="gray middle">disabled</div>
-            <div class="white middle">shadow</div>
+            <div class="common middle">common</div>
+            <div class="error middle">error</div>
+            <div class="disabled middle">disabled</div>
+            <div class="shadow middle">shadow</div>
           </div>
 
           <div class="q8 q8--btn werpper">
             <p class="q8__title">ー large ー</p>
-            <div class="blue large">common</div>
-            <div class="pink large">error</div>
-            <div class="gray large">disabled</div>
-            <div class="white large">shadow</div>
+            <div class="common large">common</div>
+            <div class="error large">error</div>
+            <div class="disabled large">disabled</div>
+            <div class="shadow large">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -111,18 +111,18 @@
                     <li class="flex">
                       <p class=" name_padding">名前<span class="color_red">*</span></p>
                       <div class="input">
-                        <input type="text" class="input_body border" required>
+                        <input name="name" type="text" class="input_body border" required="">
                       </div>
                     </li>
                     <li class="flex">
                       <p class="">性別</p>
                       <div class="input ">
                         <label class="radio_wrap">
-                          <input class="radio_btn input_body" type="radio" name="radio_text">
+                          <input class="radio_btn input_body" type="radio" name="gender" value="male">
                           <span class="radio_span">男性</span>
                         </label>
                         <label class="radio_wrap">
-                          <input class="radio_btn input_body" type="radio" name="radio_text">
+                          <input class="radio_btn input_body" type="radio" name="gender" value="female">
                           <span class="radio_span">女性</span>
                         </label>
                       </div>
@@ -130,7 +130,7 @@
                     <li class="flex">
                       <p class="name_padding">出身</p>
                       <div class="input select">
-                        <select class="select_wrap input_body border">
+                        <select class="select_wrap input_body border" name="hometwon">
                           <option value="tokyo">東京</option>
                           <option value="saitama">埼玉</option>
                           <option value="chiba">千葉</option>
@@ -141,20 +141,20 @@
                     <li class="flex">
                       <p class=" name_padding">Eメール<span class="color_red">*</span></p>
                       <div class="input">
-                        <input type="text" placeholder="ex) hoge@gmail.com" class="input_body border" required>
+                        <input type="text" placeholder="ex) hoge@gmail.com" class="input_body border" required="" name="email" type="email">
                       </div>
                     </li>
                     <li class="flex">
                       <p class=" name_padding">電話番号</p>
                       <div class="input">
-                        <input type="text" placeholder="ex) 08012345678" class="input_body border">
+                        <input type="text" placeholder="ex) 08012345678" class="input_body border" name="tel">
                       </div>
                     </li>
                     <li class="flex">
                       <div class="input age_width">
                         <div class="check">
                           <label class="checkbox_wrap">
-                            <input class="checkbox_btn" type="checkbox">
+                            <input class="checkbox_btn" type="checkbox" name="twenty" value="true">
                             <span class="checkbox_span">20歳以上です</span>
                           </label>
                         </div>
@@ -166,7 +166,7 @@
                   </div>
                 </div>
                 <div class="bottom_right">
-                  <textarea class="textarea border" name="  " id="" cols="30" rows="10" placeholder="何かあれば入力してください。"></textarea>
+                  <textarea class="textarea border"  name="message" id="" cols="30" rows="10" placeholder="何かあれば入力してください。"></textarea>
                 </div>
               </div>
             </form>

@@ -39,7 +39,7 @@
 
 
 /* inlineblock */
-.font_size {
+.first_font_size {
   font-size: 0;
 }
 
@@ -56,11 +56,11 @@
 }
 
 /* inline-block,・margin, padding */
-.inline_block_font_size {
-  font-size: 0px;
+.second_font_size {
+  font-size: 0;
 }
 
-.font_size {
+.inline_block_font_size {
   font-size: 16px;
 }
 

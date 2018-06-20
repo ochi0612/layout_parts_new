@@ -2,93 +2,89 @@
 
 /* 回答はここに書いてね */
 
-.q5 {
+.q5_box {
   background-color: #ECF1F2;
   height: 500px;
   margin: 0 auto;
   width: 500px;
   position: relative;
-  z-index: -10;
 }
 
-.q5 > div {
+.common {
   box-sizing: border-box;
   height: 100px;
   line-height: 100px;
   text-align: center;
   width: 100px;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
 }
 
 .one{
   background-color: #ffefd3;
-  position: absolute;
   top: 40px;
   left: 200px;
+  z-index: 1;
 }
 
-.one::after {
+.two {
+  background-color: #7084de;
+  top: 120px;
+  left: 280px;
+  z-index: 2;
+}
+
+.three{
+  background-color: #d0ecea;
+  top: 200px;
+  left: 360px;
+  z-index: 3;
+}
+
+.four {
+  background-color: #8d7a5e;
+  top: 280px;
+  left: 280px;
+  z-index: 4;
+}
+
+.five {
+  background-color: #9fd6d2;
+  top: 360px;
+  left: 200px;
+  z-index: 5;
+}
+
+.six {
+  background-color: #fffee4;
+  top: 280px;
+  left: 120px;
+  z-index: 6;
+}
+
+.seven {
+  background-color: #deae70;
+  top: 200px;
+  left: 40px;
+  z-index: 7;
+}
+
+.eight {
+  background-color: #de70cf;
+  top: 120px;
+  left: 120px;
+  z-index: 8;
+}
+
+.eight::after {
   content: "" ;
   background-color: #ffefd3;
   height: 20px;
   width: 20px;
   position: absolute;
-  top: 80px;
-  right: 80px;
-  z-index: 8;
-}
-
-.two {
-  background-color: #7084de;
-  position: absolute;
-  top: 120px;
-  left: 280px;
-}
-
-.three{
-  background-color: #d0ecea;
-  position: absolute;
-  top: 200px;
-  left: 360px;
-}
-
-.four {
-  background-color: #8d7a5e;
-  position: absolute;
-  top: 280px;
-  left: 280px;
-  z-index: 1;
-}
-
-.five {
-  background-color: #9fd6d2;
-  position: absolute;
-  top: 360px;
-  left: 200px;
-  z-index: 2;
-}
-
-.six {
-  background-color: #fffee4;
-  position: absolute;
-  top: 280px;
-  left: 120px;
-  z-index: 3;
-}
-
-.seven {
-  background-color: #deae70;
-  position: absolute;
-  top: 200px;
-  left: 40px;
-  z-index: 4;
-}
-
-.eight {
-  background-color: #de70cf;
-  position: absolute;
-  top: 120px;
-  left: 120px;
-  z-index: 5;
+  top: 0;
+  right: 0;
 }
 
 .nine {
@@ -96,6 +92,5 @@
   position: fixed;
   top: 10px;
   left: 10px;
-  z-index: 10;
 }
 /* 回答はここに書いてね */

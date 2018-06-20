@@ -33,25 +33,26 @@
   border-radius: 7px;
 }
 
-.blue,
-.pink,
-.gray {
+.common,
+.error,
+.disabled {
   color: #fff;
 }
 
-.blue {
-  background-color: #00dcd4;
+.common {
+  background-color: #00BCD4;
+  margin-left: 0;
 }
 
-.pink {
+.error {
   background-color: #ff4081;
 }
 
-.gray {
+.disabled {
   background-color: #e5e5e5;
 }
 
-.white {
+.shadow {
   color: #222;
   box-shadow: 0 1px 6px rgba(0,0,0,.12);
   box-shadow: 0 1px 4px rgba(0,0,0,.12);
