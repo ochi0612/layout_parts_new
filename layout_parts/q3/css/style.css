@@ -17,6 +17,7 @@
 }
 
 .td {
+  padding: 10px;
   line-height: 22px;
   text-align: center;
   border: 1px solid #dedede;
